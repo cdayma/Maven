@@ -11,7 +11,7 @@ public class homepage {
 	@Test
 	public void getBrowser()
 	{
-		//s
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.get("https://google.com");
